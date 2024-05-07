@@ -1,0 +1,97 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #1C26FF;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #1C26FF;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #777;
+    text-decoration: underline; /* Enhance visibility on hover */
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #1C26FF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #888;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content p {
+    margin: 0 10px;
+}
+
+.profile-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.profile-icon a {
+    display: block;
+}
+
+.profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #1C26FF;
+    transition: border-color 0.4s ease;
+}
+
+.profile-icon a:hover img {
+    border-color: #FF1DF1;
+}
