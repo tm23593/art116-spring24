@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Profile</title>
+    <link rel="stylesheet" href="css/account-profile.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Artistic T Print Company</h1>
+        <!-- Profile icon in the top right -->
+        <div class="profile-icon">
+            <a href="account.html">
+                <img src="images/profile-icon.png" alt="Profile Icon">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="contact-form.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Account Profile</h2>
+        <form id="profile-form" action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="john_doe" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="john.doe@example.com" required>
+
+            <!-- Add more fields for customizable profile information as needed -->
+
+            <button type="submit">Update Profile</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Customer Support</p>
+            <p>FAQ</p>
+            <p><a href="contact-form.html">Contact Us</a></p>
+        </div>
+    </footer>
+</body>
+</html>
