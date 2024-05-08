@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .container img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin-top: 20px;
     border: 2px solid #1C26FF;
